@@ -1,0 +1,22 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Raw data files
+data/*.xlsx
+data/*.xls
+
+# Customer-level analysis output
+outputs/tables/customer_rfm.csv
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
