@@ -6,9 +6,8 @@
 
 1. How did revenue and order volume change over time?
 2. Which products generated the most revenue and sales volume?
-3. Which countries contributed most to sales?
-4. Which customers are most valuable based on recency, frequency, and monetary value (RFM)?
-5. What practical actions could the business consider based on the analysis?
+3. Which customers are most valuable based on recency, frequency, and monetary value (RFM)?
+4. What practical actions could the business consider based on the analysis?
 
 ## 2. Dataset
 
