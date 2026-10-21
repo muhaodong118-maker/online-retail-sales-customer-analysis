@@ -46,14 +46,58 @@ The script expects `data/Online Retail.xlsx` (or `data/online_retail.xlsx`). It 
 Run all SQL queries and export query results: `python src/run_sql_queries.py`. The queries are also available in `sql/queries.sql` and can be reviewed in a SQLite viewer against the generated `sales` table.
 
 ## 6. Results
+## 6. Results & Key Findings
 
-> TODO: Replace this section after running the analysis. Do not publish placeholder metrics.
+### 6.1 Sales Trend Analysis
 
-- Revenue trend: TODO
-- Top products: TODO
-- Leading markets: TODO
-- Customer behavior / RFM observations: TODO
-- Business recommendations: TODO
+- Total revenue: **£10,642,110.80**
+- Total orders: **19,960**
+- Identifiable customers: **4,338**
+- Total units sold: **5,572,420**
+- Average order value (AOV): **£533.17**
+
+November 2011 was the highest-revenue complete month, reaching **£1,503,866.78**, up **30.6% month over month**. Order volume increased by 35.7%, while identifiable customers increased by 22.0%. AOV decreased by 3.8%.
+
+**Business insight:** The revenue increase coincided with growth in order volume and identifiable customers rather than an increase in average order value. December 2011 only contains data through December 9 and should not be directly compared with full months.
+
+### 6.2 Product Performance Analysis
+
+After excluding the non-merchandise stock codes `DOT`, `POST`, and `M`, the top 10 products were recalculated by revenue.
+
+- Top 10 product revenue: **£966,985.94**
+- Share of total revenue: **9.09%**
+
+Sales volume and revenue rankings differed across products. Some products sold in high quantities but generated relatively less revenue, while some high-revenue products were associated with a small number of orders.
+
+**Business insight:** Product performance should be assessed using revenue, units sold, and order coverage together. Products with unusually high quantities but very few orders should be reviewed separately.
+
+### 6.3 Customer Behavior Analysis
+
+Among 4,338 identifiable customers:
+
+- Repeat customers: **2,845 (65.58%)**
+- One-time customers: **1,493 (34.42%)**
+- Revenue from repeat customers: **£8,273,219.33**
+- Repeat-customer share of identifiable-customer revenue: **93.09%**
+
+The top 10 customers contributed **£1,537,659.21**, equivalent to approximately 14.45% of total revenue.
+
+**Business insight:** Repeat customers represent the main revenue base among identifiable customers. Customer retention, targeted product recommendations, and carefully designed reactivation tests for high-value inactive customers are potential follow-up strategies.
+
+### 6.4 Business Recommendations
+
+1. Investigate the products and customer groups contributing most to peak-month revenue before making inventory and marketing decisions.
+2. Compare revenue, quantity, and order coverage when evaluating product performance.
+3. Distinguish frequent high-value customers from high-value one-time or inactive customers when designing customer-retention strategies.
+
+### 6.5 Limitations
+
+- The dataset represents one retailer during a historical period; the findings should not be generalized to all retailers.
+- December 2011 is an incomplete month.
+- Product costs are unavailable, so revenue cannot be interpreted as profit.
+- Customer IDs are missing for some transactions. Customer-level metrics therefore use identifiable-customer records where applicable.
+- Repeat-customer status is defined by the number of distinct invoices during the observation period and is not equivalent to monthly retention.
+- Business recommendations are hypotheses for further testing, not evidence of measured marketing impact.
 
 ## 7. Data Cleaning Decisions
 
