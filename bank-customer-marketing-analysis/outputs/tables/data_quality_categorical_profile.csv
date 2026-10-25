@@ -1,0 +1,11 @@
+﻿field,unknown_records,blank_records,missing_records,unique_values_including_unknown
+poutcome,36959,0,0,4
+contact,13020,0,0,3
+education,1857,0,0,4
+job,288,0,0,12
+marital,0,0,0,3
+default,0,0,0,2
+housing,0,0,0,2
+loan,0,0,0,2
+month,0,0,0,12
+y,0,0,0,2

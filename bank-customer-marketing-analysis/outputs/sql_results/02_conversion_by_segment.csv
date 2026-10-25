@@ -1,0 +1,23 @@
+﻿dimension,segment,marketing_records,subscribed_records,conversion_rate_pct
+age_group,65+,810,341,42.1
+age_group,18-24,809,207,25.59
+age_group,55-64,4896,641,13.09
+age_group,25-34,14204,1773,12.48
+age_group,35-44,14534,1404,9.66
+age_group,45-54,9958,923,9.27
+balance_segment,"5,000+",2847,441,15.49
+balance_segment,"1,000-4,999",11795,1812,15.36
+balance_segment,0-999,26803,2826,10.54
+balance_segment,Negative balance,3766,210,5.58
+job,student,938,269,28.68
+job,retired,2264,516,22.79
+job,unemployed,1303,202,15.5
+job,management,9458,1301,13.76
+job,admin.,5171,631,12.2
+job,self-employed,1579,187,11.84
+job,unknown,288,34,11.81
+job,technician,7597,840,11.06
+job,services,4154,369,8.88
+job,housemaid,1240,109,8.79
+job,entrepreneur,1487,123,8.27
+job,blue-collar,9732,708,7.27

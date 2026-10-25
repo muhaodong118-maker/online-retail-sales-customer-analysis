@@ -1,0 +1,11 @@
+{
+  "source_file": "data\\raw\\bank-full.csv",
+  "row_count": 45211,
+  "column_count": 17,
+  "exact_duplicate_rows": 0,
+  "total_missing_cells": 0,
+  "target_yes_records": 5289,
+  "target_no_records": 39922,
+  "target_conversion_rate_pct": 11.7,
+  "interpretation": "A row is a marketing record, not a guaranteed unique customer; the dataset has no customer ID."
+}

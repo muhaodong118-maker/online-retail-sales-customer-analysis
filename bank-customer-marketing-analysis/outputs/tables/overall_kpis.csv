@@ -1,0 +1,9 @@
+﻿metric,value,definition
+marketing_records,45211.0,Number of rows in the dataset; not a distinct-customer count.
+subscribed_records,5289.0,Rows with y = yes.
+not_subscribed_records,39922.0,Rows with y = no.
+conversion_rate_pct,11.7,Subscribed records / all marketing records.
+mean_age,40.94,Mean age across records.
+median_balance,448.0,Median account balance; currency units follow the dataset documentation.
+mean_campaign_contacts,2.76,Mean contacts during this campaign for a record.
+previously_contacted_records_pct,18.26,Share of rows with pdays >= 0.
